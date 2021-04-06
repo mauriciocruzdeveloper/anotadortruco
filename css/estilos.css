@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	max-width: 100vw;
+	height: 100vh;
+	background-color: #008c23;
+	color:#fff;
+}
+
+::placeholder {
+	 color: #fff; 
+}
+/*estilos pagina 1 inicio*/
+#inicio input {
+	text-align: center;
+	background-color: #008c23;	
+	font-size: 8vw;
+	margin-top: 10vw;
+	font-family: "Anton";
+}
+.medioancho {
+	width: 49%;
+}
+.ancho {
+	width: 99%;
+}
+#inicio {
+	text-align: right;
+	padding: 13vw;
+}
+
+/*estilos comunes a los label e input pagina 2 juego*/
+#juego{
+	text-align: center;
+}
+.tableroflex {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*estilo de los botones suma y resta pagina 2 juego*/
+.logo {
+	text-align: center;
+	padding-top: 10px;
+}
+.sumrest {
+	width: 17vw;
+	height: 17vw;
+	color: #fff;
+	margin-bottom: 4vw;
+	text-align: center;
+	background-color: #008c23;	
+	font-size: 10vw;
+	font-family: "Anton";
+	border: 2px solid #fff
+}
+
+/* estilos campo de juego pagina 2 juego;*/
+#encabezado label {
+	display: block;
+	width: 30.5vw;
+	background-color: #008c23;
+	color: #fff;
+	font-size: 6vw;
+	font-family: "Anton";
+	padding-top: 22px;
+}
+#pie label {
+	width: 19.5vw;
+	background-color: #008c23;
+	color: #fff;
+	font-size: 13vw;
+	font-family: "Anton";
+		
+}
+
+#encabezado div {
+	display: flex;
+	width: 50vw;
+}
+
+#puntajemax{
+	color: #fff;
+	font-size: 5vw;
+	font-family: "Anton";
+}
+
+#campoj {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ #campoj div {
+	display: flex;
+	flex-direction: column;
+	width: 49.7%;
+	align-items: center;
+	padding: 10px 0px 10px 0px;
+}
+
+#campoj div img{
+	max-width: 25vw;		
+}
+
+/*lineas pagina2*/
+.lineder {
+	border-right: 1px solid #fff;
+}
+
+.lineizq {
+	border-left: 1px solid #fff;
+}
+.lineasup {
+	border-top: 1px solid #fff;
+}
+/*boton limpiar*/
+.btnfin {
+	width: 17vw;
+	height: 17vw;
+	color: #fff;
+	text-align: center;
+	background-color: #008c23;	
+	font-size: 8vw;
+	font-family: "Anton";
+	border: 2px solid #fff
+}
+/*estilos para visiblilidad*/
+
+.visible{
+	display: block;
+	visibility: visible;
+}
+
+.oculta{
+	display: none;
+	visibility: hidden;
+}
+
+.inactivo {
+	border: 2px solid #96c396;
+	color: #96c396;
+	font-family: "Anton";
+}
+
+.activo {
+	border: 2px solid #fff;
+	color: #fff;
+	font-family: "Anton";
+}
